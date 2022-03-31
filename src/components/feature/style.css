@@ -1,0 +1,171 @@
+
+
+
+/* . {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 9px;
+  animation: animasiAddContact 0.5s ease;
+} */
+.edtbtncon2 {
+  background-color: rgba(0, 0, 0, 0.37);
+  border-color: rgba(0, 0, 0, 0.37);
+}
+
+@keyframes animasiAddContact {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.AddContactBox input {
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 12px;
+  width: 90%;
+  background-color: #e6e5ea;
+  height: 50px;
+  
+}
+
+.mainAddContact {
+  width: 90%;
+  height: 65vh;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.AddContactBox {
+  text-align: center;
+}
+
+.AddContactBox button {
+  width: 90%;
+  border-radius: 10px;
+  padding: 6px 0;
+  border: none;
+  color: white;
+  font-size: 14px;
+  background-color: #6c84ff;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.mainAddContact img {
+  margin-top: 80px;
+  opacity: 0.1;
+}
+
+.progressBtn {
+  height: 30px;
+}
+
+.progressBtn div {
+  height: 20px;
+  width: 20px;
+  margin-bottom: 2px;
+}
+
+.addContact {
+  font-size: 14px;
+  position: relative;
+}
+
+.addContact input {
+  margin-top: 20px;
+  height: 40px;
+}
+
+.addContact p {
+  margin-top: 20px;
+}
+
+.addContact .addContactBtn {
+  font-size: 12px;
+  width: 60px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.backAddContact {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  background-color: #e6e5ea;
+  padding: 3px;
+  opacity: 0.5;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.imageProfil {
+  margin-right: 10px;
+}
+
+.backListContact {
+  cursor: pointer;
+  margin-top: -10px;
+}
+
+.img1 {
+  width: 480px;
+  height: 640px;
+  border-radius: 20px;
+}
+
+@media (max-width: 0px) {
+  .AddContactBox {
+    margin: 0px;
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-radius: 9px;
+    position: absolute;
+    animation: animasiAddContact 0.5s ease;
+    z-index: 9999;
+    border-radius: 0px;
+  }
+  .AddContactBox .searchContact {
+    width: 90%;
+    border-radius: 10px;
+    padding: 6px 0;
+    border: none;
+    color: white;
+    font-size: 14px;
+    background-color: #6c84ff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 20px auto;
+  }
+
+  .chatOpt {
+    z-index: 999999;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+  }
+
+  .backListContact {
+    cursor: pointer;
+  }
+
+  
+}
